@@ -36,7 +36,7 @@ class Metric(Base):
     user_id = Column(String)
     plan = Column(String)
     amount = Column(Float)
-    metadata = Column(String)
+    meta_json = Column(String)
     created_at = Column(DateTime, default=datetime.utcnow)
 
 
